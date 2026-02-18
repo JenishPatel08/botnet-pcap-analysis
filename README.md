@@ -34,26 +34,43 @@ The repository does not include the PCAP file as a downloadable file. Please obt
 Tools & Techniques
 
 The following tools and techniques were used:
-1. Wireshark packet inspection
-2. Protocol hierarchy analysis
-3. IPv4 conversation statistics
-4. TCP stream analysis
-5. Traffic asymmetry evaluation
-6. HTTP request inspection
+
+Wireshark packet inspection
+
+Protocol hierarchy analysis
+
+IPv4 conversation statistics
+
+TCP stream analysis
+
+Traffic asymmetry evaluation
+
+HTTP request inspection
 
 Analysis Focus
 
 The investigation evaluated:
-1. Dominant internal hosts
-2. External communication patterns
-3. Protocol usage distribution
-4. HTTP request behavior
-5. Traffic concentration and asymmetry
-6. Indicators of automated activity
 
-Key Observations :
-1. The majority of outbound traffic originated from a single internal host.
-2. The primary method of communication used HTTP over TCP.
-3. Multiple external endpoints were targeted through repeated HTTP GET requests.
-4. The traffic distribution showed an extreme preference for one specific external IP address.
-5. Automated communication patterns were indicated through the observed behavioral indicators.
+Dominant internal hosts
+
+External communication patterns
+
+Protocol usage distribution
+
+HTTP request behavior
+
+Traffic concentration and asymmetry
+
+Indicators of automated activity
+
+Key Observations
+
+The majority of outbound traffic originated from a single internal host.
+
+The primary method of communication used HTTP over TCP.
+
+Multiple external endpoints were targeted through repeated HTTP GET requests.
+
+The traffic distribution showed an extreme preference for one specific external IP address.
+
+Automated communication patterns were indicated through the observed behavioral indicators.
