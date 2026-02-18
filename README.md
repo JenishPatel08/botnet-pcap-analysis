@@ -1,6 +1,9 @@
 🛡️ Botnet PCAP Traffic Analysis
 
-Network traffic investigation using statistical and behavioral analysis on a public botnet dataset.📌 About This Project
+Network traffic investigation using statistical and behavioral analysis on a public botnet dataset.
+<img width="2113" height="1" alt="image" src="https://github.com/user-attachments/assets/e1e30012-4a36-4ffd-a385-75d8fbf0604f" />
+
+📌 About This Project
 
 This repository contains a structured network traffic analysis performed on a publicly available PCAP file.The objective was to determine whether an internal host exhibited automated or botnet-like communication patterns using packet inspection and statistical evaluation.The investigation focuses on traffic distribution, protocol usage, dominant hosts, and behavioral indicators.
 
