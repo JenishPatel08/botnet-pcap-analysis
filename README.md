@@ -1,76 +1,58 @@
-Botnet PCAP Traffic Analysis
-Project Overview
+🛡️ Botnet PCAP Traffic Analysis
 
-The repository contains network traffic analysis which uses a publicly available PCAP file as its source. The research used packet inspection together with statistical methods to determine whether an internal host showed signs of automated behavior or botnet activity.
+Network traffic investigation using statistical and behavioral analysis on a public botnet dataset.📌 About This Project
 
-The analysis focuses on identifying abnormal traffic patterns, dominant hosts, protocol distribution, and communication behavior.
+This repository contains a structured network traffic analysis performed on a publicly available PCAP file.The objective was to determine whether an internal host exhibited automated or botnet-like communication patterns using packet inspection and statistical evaluation.The investigation focuses on traffic distribution, protocol usage, dominant hosts, and behavioral indicators.
 
-Dataset
+📂 Dataset Details
 
-Analyzed file: botnet-capture-20110816-sogou.pcap
-
+File: botnet-capture-20110816-sogou.pcap
 Format: PCAP (Ethernet)
-
 Duration: 15 minutes 46 seconds
+Total Packets: 20,663
+Total Data Size: 18.5 MB
 
-Total packets: 20,663
+🔎 Source
 
-Total data size: 18.5 MB
-
-Source
-
-The CTU-13 botnet traffic dataset originates from the database developed by:
+The dataset is part of the CTU-13 botnet traffic collection developed by:
 
 Czech Technical University in Prague
-
 Stratosphere Laboratory
 
-Official Dataset Reference:
+Official Dataset link: https://www.stratosphereips.org/datasets-ctu13
 
+Official Dataset Reference:
 CTU-13 Dataset
 
-The repository does not include the PCAP file as a downloadable file. Please obtain it directly from the official source.
+⚠️ The PCAP file is not included in this repository.Please obtain it from the official source.
 
-Tools & Techniques
+🛠️ Tools Used
 
-The following tools and techniques were used:
+1. Wireshark
+2. Protocol Hierarchy Analysis
+3. IPv4 Conversation Statistics
+4. TCP Stream Analysis
+5. Traffic Asymmetry Evaluation
+6. HTTP Request Inspection
 
-Wireshark packet inspection
+🔍 What Was Analyzed?The investigation evaluated:
 
-Protocol hierarchy analysis
+1. Dominant internal hosts
+2. External communication patterns
+3. Protocol distribution
+4. HTTP request behavior
+5. Traffic concentration
+6. Indicators of automated activity
 
-IPv4 conversation statistics
+📊 Key Observations
 
-TCP stream analysis
+Majority of outbound traffic originated from a single internal host.Communication was primarily HTTP over TCP.Repeated HTTP GET requests were observed toward multiple external endpoints.Traffic distribution was heavily concentrated toward one external IP address.Behavioral indicators suggested automated communication patterns.
 
-Traffic asymmetry evaluation
+🎯 Purpose
 
-HTTP request inspection
+This project was completed to strengthen practical skills in:
 
-Analysis Focus
-
-The investigation evaluated:
-
-Dominant internal hosts
-
-External communication patterns
-
-Protocol usage distribution
-
-HTTP request behavior
-
-Traffic concentration and asymmetry
-
-Indicators of automated activity
-
-Key Observations
-
-The majority of outbound traffic originated from a single internal host.
-
-The primary method of communication used HTTP over TCP.
-
-Multiple external endpoints were targeted through repeated HTTP GET requests.
-
-The traffic distribution showed an extreme preference for one specific external IP address.
-
-Automated communication patterns were indicated through the observed behavioral indicators.
+1. Network traffic analysis
+2. PCAP investigation
+3. Behavioral anomaly detection
+4. Command-and-control traffic identification
