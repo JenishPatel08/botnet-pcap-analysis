@@ -1,13 +1,13 @@
-🛡️ Botnet PCAP Traffic Analysis
+# 🛡️ Botnet PCAP Traffic Analysis
 
 Network traffic investigation using statistical and behavioral analysis on a public botnet dataset.
-<img width="2113" height="1" alt="image" src="https://github.com/user-attachments/assets/e1e30012-4a36-4ffd-a385-75d8fbf0604f" />
 
-📌 About This Project
+
+## 📌 About This Project
 
 This repository contains a structured network traffic analysis performed on a publicly available PCAP file.The objective was to determine whether an internal host exhibited automated or botnet-like communication patterns using packet inspection and statistical evaluation.The investigation focuses on traffic distribution, protocol usage, dominant hosts, and behavioral indicators.
 
-📂 Dataset Details
+## 📂 Dataset Details
 
 File: botnet-capture-20110816-sogou.pcap
 Format: PCAP (Ethernet)
@@ -15,7 +15,7 @@ Duration: 15 minutes 46 seconds
 Total Packets: 20,663
 Total Data Size: 18.5 MB
 
-🔎 Source
+## 🔎 Source
 
 The dataset is part of the CTU-13 botnet traffic collection developed by:
 
@@ -29,7 +29,7 @@ CTU-13 Dataset
 
 ⚠️ The PCAP file is not included in this repository.Please obtain it from the official source.
 
-🛠️ Tools Used
+## 🛠️ Tools Used
 
 1. Wireshark
 2. Protocol Hierarchy Analysis
@@ -38,7 +38,7 @@ CTU-13 Dataset
 5. Traffic Asymmetry Evaluation
 6. HTTP Request Inspection
 
-🔍 What Was Analyzed?The investigation evaluated:
+## 🔍 What Was Analyzed?The investigation evaluated:
 
 1. Dominant internal hosts
 2. External communication patterns
@@ -47,11 +47,11 @@ CTU-13 Dataset
 5. Traffic concentration
 6. Indicators of automated activity
 
-📊 Key Observations
+## 📊 Key Observations
 
 Majority of outbound traffic originated from a single internal host.Communication was primarily HTTP over TCP.Repeated HTTP GET requests were observed toward multiple external endpoints.Traffic distribution was heavily concentrated toward one external IP address.Behavioral indicators suggested automated communication patterns.
 
-🎯 Purpose
+## 🎯 Purpose
 
 This project was completed to strengthen practical skills in:
 
